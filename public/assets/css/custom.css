@@ -1,0 +1,33 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.hidden {
+    display: none;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+canvas {
+    height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        height: 150px;
+    }
+}
+
+.holiday {
+    background-color: #ffcccc !important;
+    color: red !important;
+}
