@@ -1,6 +1,14 @@
 @extends('auth.layouts.master')
 
 @section('content')
+<style>
+    body {
+        background-image: url('assets/img/pinewoods.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    </style>
 <body>
     <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
         <form action="{{ route('login') }}" method="POST">

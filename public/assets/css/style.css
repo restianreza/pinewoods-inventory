@@ -8,12 +8,6 @@
     background-color: brown;
 }
 
-.bodyimg {
-    background-image: url('/assets/images/pinewoods.jpg');
-    background-size: cover; /* Menyesuaikan ukuran gambar */
-    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-    background-position: center center; /* Memposisikan gambar di tengah */
-}
 .navsize {
     width: 100%; /* Atur lebar navbar */
     max-width: 1200px; /* Atur lebar maksimal navbar, jika diperlukan */

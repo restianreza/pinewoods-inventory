@@ -2,7 +2,7 @@
 <div class="sidebar pe-4 pb-3">
     <nav class="navbar bg-light navbar-light">
         <a href="{{ route('dashboard') }}" class="navbar-brand mx-4 mb-3">
-            <h6 class="text-primary">INVENTARIS PINEWOODS</h6>
+            <h6 class="text-primary">PINEWOODS INVENTORY</h6>
         </a>
         <div class="d-flex align-items-center ms-4 mb-4">
             <div class="position-relative">
@@ -22,7 +22,7 @@
                     class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                        class="bi bi-front me-2"></i>Tim Depan</a>
+                        class="bi-shop me-2"></i>Tim Depan</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <div class="nav-item dropdwond ms-4">
                         <a href="{{ route('showcase') }}" class="dropdown-item">Show Case</a>
@@ -33,7 +33,7 @@
 
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                        class="fa fa-beer me-2"></i>Bar</a>
+                        class="bi-cup me-2"></i>Bar</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <div class="nav-item dropdwond ms-4">
                         <a href="{{ route('bahan-bar') }}" class="dropdown-item">Bahan Bar</a>
@@ -44,7 +44,7 @@
 
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                        class="fa fa-th me-2"></i>Kitchen</a>
+                        class="bi-basket me-2"></i>Kitchen</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <div class="nav-item dropdwond ms-4">
                         <a href="{{ route('dry-good') }}" class="dropdown-item">Dry Good</a>
@@ -56,7 +56,7 @@
 
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                        class="fa fa-th me-2"></i>Cleaning Serv</a>
+                        class="bi-bucket me-2"></i>Cleaning Serv</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <div class="nav-item dropdown ms-4">
                         <a href="{{ route('perlengkapan-indoor') }}" class="dropdown-item">Perlengkapan Indoor</a>
@@ -73,7 +73,7 @@
             @if (auth()->user()->role === 'superadmin')
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                        <i class="fa fa-th me-2"></i>More</a>
+                        <i class="bi-collection me-2"></i>More</a>
                     <div class="dropdown-menu bg-transparent border-0">
                         <div class="nav-item dropdown ms-4">
                             <a href="{{ route('history') }}" class="dropdown-item">Riwayat</a>
