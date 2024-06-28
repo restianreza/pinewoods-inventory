@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid pt-4 px-4">
         <div class="bg-light text-center rounded p-4">
-            <h1>Froozen Food</h1>
+            <h1>Frozen Food</h1>
             @if (session('success'))
                 <div id="success-alert" class="alert alert-success" role="alert">
                     {{ session('success') }}
@@ -22,7 +22,7 @@
     <div class="container-fluid pt-4 px-4">
         <div class="bg-light rounded p-4">
             <div class="d-flex align-items-center justify-content-between mb-4">
-                <h6 class="mb-0">Froozen Food</h6>
+                <h6 class="mb-0">Frozen Food</h6>
                 <div>
                     <button data-bs-toggle="modal" data-bs-target="#create" class="btn btn-success btn-sm p-1 shadow-md">
                         <div class="d-flex justify-content-center align-items-center gap-1"><i
@@ -37,7 +37,7 @@
                     <div class="modal-content">
                         <!-- BEGIN: Modal Header -->
                         <div class="modal-header" style="display: flex; justify-content: center;">
-                            <h2 class="fw-medium fs-base">Tambah List Froozen Food</h2>
+                            <h2 class="fw-medium fs-base">Tambah List Frozen Food</h2>
                         </div>
 
                         <!-- BEGIN: Modal Body -->

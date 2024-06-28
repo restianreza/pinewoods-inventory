@@ -48,7 +48,7 @@
                 <div class="dropdown-menu bg-transparent border-0">
                     <div class="nav-item dropdwond ms-4">
                         <a href="{{ route('dry-good') }}" class="dropdown-item">Dry Good</a>
-                        <a href="{{ route('froozen-food') }}" class="dropdown-item">Froozen Food</a>
+                        <a href="{{ route('froozen-food') }}" class="dropdown-item">Frozen Food</a>
                         <a href="{{ route('perlengkapan-dapur') }}" class="dropdown-item">Perlengkapan Dapur</a>
                     </div>
                 </div>
